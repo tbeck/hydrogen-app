@@ -6,6 +6,7 @@ export default function Test({path = '/images/test.jpg'}) {
     <>
       <h1>Test</h1>
       <Image src={path} width="300" height="300" alt="blah" />
+      <img className="product-card__image" src={path} />
     </>
   );
 }
