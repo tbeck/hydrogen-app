@@ -7,6 +7,7 @@ import {
   useServerAnalytics,
   useLocalization,
   useShopQuery,
+  Image,
 } from '@shopify/hydrogen';
 
 import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
@@ -27,6 +28,7 @@ export default function Homepage() {
         <SeoForHomepage />
       </Suspense>
       <Suspense>
+        <Image src={`/images/test.jpg`} width="300" height="300" />
         <HomepageContent />
       </Suspense>
     </Layout>
