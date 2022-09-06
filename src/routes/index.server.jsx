@@ -13,7 +13,7 @@ import {MEDIA_FRAGMENT, PRODUCT_CARD_FRAGMENT} from '~/lib/fragments';
 import {getHeroPlaceholder} from '~/lib/placeholders';
 import {FeaturedCollections, Hero} from '~/components';
 import {Layout, ProductSwimlane} from '~/components/index.server';
-import Test from '../components/Test';
+import Test from '../components/Test.client';
 
 export default function Homepage() {
   useServerAnalytics({

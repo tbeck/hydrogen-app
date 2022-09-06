@@ -523,7 +523,7 @@ Error generating stack: `+i.message+`
     <link rel="preconnect" href="https://cdn.shopify.com" />
     <link rel="preconnect" href="https://shop.app/" />
     <link rel="preconnect" href="https://hydrogen-preview.myshopify.com/" />
-    <script type="module" crossorigin src="/assets/index.8ad3de38.js"><\/script>
+    <script type="module" crossorigin src="/assets/index.4c958b4c.js"><\/script>
     <link rel="stylesheet" href="/assets/index.b64abce9.css">
   </head>
   <body>
